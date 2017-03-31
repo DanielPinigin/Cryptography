@@ -35,4 +35,4 @@ for c in mes:
     d = associations.find(c)
     print(d)
 
-associations[index]
+
