@@ -35,5 +35,4 @@ for c in mes:
     d = associations.find(c)
     print(d)
 
-z = associations.find(mes)
 associations[index]
