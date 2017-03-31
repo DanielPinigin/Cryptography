@@ -26,7 +26,8 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 #Goodbye!
 
 eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-
+if eord == e:
+    mes = input("Message: ")
 
 
     
