@@ -36,5 +36,4 @@ for c in mes:
     print(c)
 
 z = associations.find(mes)
-print(
 associations[index]
