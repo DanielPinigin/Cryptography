@@ -24,10 +24,9 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 #Two plus two = Five
 #Enter e to encrypt, d to decrypt, or q to quit: q
 #Goodbye!
-"
 
 eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-eord = eord.lowercase()
+
 
 
     
