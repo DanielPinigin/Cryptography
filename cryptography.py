@@ -32,8 +32,8 @@ mes = list(mes)
 print(mes)
 
 for c in mes:
-    associations.find(c)
-    print(c)
+    d = associations.find(c)
+    print(d)
 
 z = associations.find(mes)
 associations[index]
