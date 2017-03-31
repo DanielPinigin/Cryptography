@@ -9,9 +9,6 @@ Write and submit a program that encrypts and decrypts user data.
 
 See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptography/blob/master/README.md
 """
-associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
-
-#"
 #Enter e to encrypt, d to decrypt, or q to quit: z
 #Did not understand command, try again.
 #Enter e to encrypt, d to decrypt, or q to quit: e
@@ -24,12 +21,20 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 #Two plus two = Five
 #Enter e to encrypt, d to decrypt, or q to quit: q
 #Goodbye!
+#___________________________________________________________________________________________________________________
 
-eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
+associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
+
+#eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 
 mes = input("Message: ")
 mes = list(mes)
+print(mes)
 
+for c in mes:
+    associations.find(c)
+    print(c)
 
-
-    
+z = associations.find(mes)
+print(
+associations[index]
