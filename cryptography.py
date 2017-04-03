@@ -39,5 +39,6 @@ key = [associations.find(x) for x in key]
 print(key)
 
 ultracode = [message, key]
-[sum(x) for x in [(message), (key)]]
+z = [sum(x) for x in [(message), (key)]]
+print(z)
 #Code that adds key to the message
