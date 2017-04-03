@@ -34,3 +34,9 @@ print(mes)
 message = [associations.find(x) for x in mes]
 print(message)
 
+key = input("Key: ")
+key = [associations.find(x) for x in key]
+print(key)
+
+
+#Code that adds key to the message
