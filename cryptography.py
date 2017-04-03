@@ -24,21 +24,22 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 #___________________________________________________________________________________________________________________
 
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
-
+thing = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 #eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 
 mes = input("Message: ")
 mes = list(mes)
 print(mes)
     
-message = [associations.find(x) for x in mes]
+message = [thing.find(x) for x in mes]
 print(message)
 
 key = input("Key: ")
-key = [associations.find(x) for x in key]
+key = [thing.find(x) for x in key]
 print(key)
 
+#While loop to add key until it fits the message
 ultracode = [message, key]
-z = [sum(x) for x in [(message), (key)]]
-print(z)
+print(ultracode)
+
 #Code that adds key to the message
