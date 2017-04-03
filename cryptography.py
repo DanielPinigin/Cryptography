@@ -32,5 +32,5 @@ mes = list(mes)
 print(mes)
     
 message = [associations.find(x) for x in mes]
-
 print(message)
+
