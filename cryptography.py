@@ -34,5 +34,8 @@ print(mes)
 for c in mes:
     d = associations.find(c)
     print(d)
+    
+message = [assocations.find(x) for x in mes]
 
-
+print(message)
+print(d)
