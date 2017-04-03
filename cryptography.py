@@ -30,12 +30,7 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 mes = input("Message: ")
 mes = list(mes)
 print(mes)
-
-for c in mes:
-    d = associations.find(c)
-    print(d)
     
-message = [assocations.find(x) for x in mes]
+message = [associations.find(x) for x in mes]
 
 print(message)
-print(d)
