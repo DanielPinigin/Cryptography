@@ -39,7 +39,8 @@ key = [thing.find(x) for x in key]
 print(key)
 
 #While loop to add key until it fits the message
-ultracode = [message, key]
-print(ultracode)
+ultracode = zip(message, key)
+print(list(ultracode))
+
 
 #Code that adds key to the message
