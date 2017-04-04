@@ -45,8 +45,8 @@ print(c)
 #While loop to add key until it fits the message
 ultracode = zip(message, c)
 print(list(ultracode))
-for h,k in ultracode:
-    print(h+k)
+for x, y in list(ultracode):
+    print(x+y)
 
 
 #Code that adds key to the message
