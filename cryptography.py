@@ -49,6 +49,9 @@ ultracode = list(ultracode)
 g = [x+y for x,y in ultracode]
 print(g)
 
+enc = [thing.index[x] for x in g]
+print(enc)
+
     
 
 
