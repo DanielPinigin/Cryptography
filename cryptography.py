@@ -52,8 +52,6 @@ print(g)
 enc = [thing[x] for x in g]
 print(enc)
 
-    
-
 
 
 
