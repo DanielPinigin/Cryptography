@@ -44,9 +44,11 @@ c = b*key
 print(c)
 #While loop to add key until it fits the message
 ultracode = zip(message, c)
-print(list(ultracode))
-for x, y in list(ultracode):
-    print(x+y)
+ultracode = list(ultracode)
+for x, y in ultracode:
+    if x > 0:
+        print(x+y)
+
 
 
 #Code that adds key to the message
