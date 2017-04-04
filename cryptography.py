@@ -46,8 +46,7 @@ print(c)
 ultracode = zip(message, c)
 ultracode = list(ultracode)
 for x, y in ultracode:
-    if x > 0:
-        print(x+y)
+    print(x+y)
 
 
 
