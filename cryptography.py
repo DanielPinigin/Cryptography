@@ -27,14 +27,16 @@ associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .
 thing = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 #eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 
-mes = input("Message: ")
+#mes = input("Message: ")
+mes = ("test")
 mes = list(mes)
 print(mes)
     
 message = [thing.find(x) for x in mes]
 print(message)
 
-key = input("Key: ")
+#key = input("Key: ")
+key = ("hi")
 key = [thing.find(x) for x in key]
 print(key)
 #length of message/length of key in integers
@@ -47,6 +49,8 @@ ultracode = zip(message, c)
 ultracode = list(ultracode)
 for x, y in ultracode:
     print(x+y)
+    
+
 
 
 
