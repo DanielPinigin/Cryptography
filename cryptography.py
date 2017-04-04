@@ -40,10 +40,10 @@ print(key)
 #length of message/length of key in integers
 b = len(message)/len(key)
 b = int(b)
-print(b)
-print(b*key)
+c = b*key
+print(c)
 #While loop to add key until it fits the message
-ultracode = zip(message, key)
+ultracode = zip(message, c)
 print(list(ultracode))
 
 
