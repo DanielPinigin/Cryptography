@@ -38,7 +38,6 @@ print(message)
 #key = input("Key: ")
 key = ("hi")
 key = [thing.find(x) for x in key]
-print(key)
 #length of message/length of key in integers
 b = len(message)/len(key)
 b = int(b)
@@ -49,6 +48,8 @@ ultracode = zip(message, c)
 ultracode = list(ultracode)
 for x, y in ultracode:
     print(x+y)
+
+
     
 
 
