@@ -25,32 +25,41 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 thing = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
-#eord = input("Enter e to encrypt, d to decrypt, or q to quit: ")
-
-mes = input("Message: ")
-#mes = ("test")
-mes = list(mes)
-print(mes)
+inp = input("Enter e to encrypt, d to decrypt, or q to quit: ")
+t = 1
+while t == 1:
+    if inp == e:
+        mes = input("Message: ")
+        #mes = ("test")
+        mes = list(mes)
+        print(mes)
     
-message = [thing.find(x) for x in mes]
-print(message)
+        message = [thing.find(x) for x in mes]
+        print(message)
+    
+        key = input("Key: ")
+        #key = ("hi")
+        key = [thing.find(x) for x in key]
 
-key = input("Key: ")
-#key = ("hi")
-key = [thing.find(x) for x in key]
+        b = len(message)/len(key)
+        b = int(b)
+        c = b*key
+        print(c)
 
-b = len(message)/len(key)
-b = int(b)
-c = b*key
-print(c)
+        ultracode = zip(message, c)
+        ultracode = list(ultracode)
+        g = [x+y for x,y in ultracode]
+        print(g)
 
-ultracode = zip(message, c)
-ultracode = list(ultracode)
-g = [x+y for x,y in ultracode]
-print(g)
+        enc = [thing[x] for x in g]
+        print("".join(enc))
+elif inp == d:
+    g = [g+y for x,y in ultracode]
+        print(g)
+elif inp == q:
+    t = 2
 
-enc = [thing[x] for x in g]
-print("".join(enc))
+#________________________________________________________________________________________________________________
 
 
 
