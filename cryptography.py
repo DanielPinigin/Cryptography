@@ -55,8 +55,8 @@ while t == 1:
         print("".join(enc))
     elif inp == d:
         g = [g+y for x,y in ultracode]
-            print(g)
-        elif inp == q:
+        print(g)
+    elif inp == q:
             t = 2
 
 #________________________________________________________________________________________________________________
