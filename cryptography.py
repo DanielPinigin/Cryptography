@@ -25,9 +25,9 @@ See the detailed requirements at https://github.com/HHS-IntroProgramming/Cryptog
 
 associations = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
 thing = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/\\<>(){}[]-=_+?!"
-inp = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 t = 1
 while t == 1:
+    inp = input("Enter e to encrypt, d to decrypt, or q to quit: ")
     if inp == "e":
         mes = input("Message: ")
         #mes = ("test")
