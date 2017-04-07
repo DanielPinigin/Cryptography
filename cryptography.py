@@ -53,10 +53,32 @@ while t == 1:
 
         enc = [thing[x] for x in g]
         print("".join(enc))
-    elif inp == d:
-        g = [g+y for x,y in ultracode]
+    elif inp == "d":
+        mes = input("Message: ")
+        #mes = ("test")
+        mes = list(mes)
+        print(mes)
+    
+        message = [thing.find(x) for x in mes]
+        print(message)
+    
+        key = input("Key: ")
+        #key = ("hi")
+        key = [thing.find(x) for x in key]
+
+        b = len(message)/len(key)
+        b = int(b)
+        c = b*key
+        print(c)
+
+        ultracode = zip(message, c)
+        ultracode = list(ultracode)
+        g = [g-y for x,y in ultracode]
         print(g)
-    elif inp == q:
+        
+        enc = [thing[x] for x in g]
+        print("".join(enc))
+    elif inp == "q":
             t = 2
 
 #________________________________________________________________________________________________________________
