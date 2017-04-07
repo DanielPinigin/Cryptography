@@ -80,6 +80,7 @@ while t == 1:
         print("".join(enc))
     elif inp == "q":
             t = 2
+            print("Goodbye!")
     else:
         print("Did not understand command, try again.")
 
