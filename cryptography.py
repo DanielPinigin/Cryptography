@@ -53,11 +53,11 @@ while t == 1:
 
         enc = [thing[x] for x in g]
         print("".join(enc))
-elif inp == d:
-    g = [g+y for x,y in ultracode]
-        print(g)
-elif inp == q:
-    t = 2
+    elif inp == d:
+        g = [g+y for x,y in ultracode]
+            print(g)
+        elif inp == q:
+            t = 2
 
 #________________________________________________________________________________________________________________
 
