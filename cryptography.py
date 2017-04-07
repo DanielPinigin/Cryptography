@@ -35,7 +35,7 @@ while t == 1:
         print(mes)
     
         message = [thing.find(x) for x in mes]
-        print(message)
+        #print(message)
     
         key = input("Key: ")
         #key = ("hi")
@@ -44,7 +44,7 @@ while t == 1:
         b = len(message)/len(key)
         b = int(b)
         c = b*key
-        print(c)
+        #print(c)
 
         ultracode = zip(message, c)
         ultracode = list(ultracode)
@@ -60,7 +60,7 @@ while t == 1:
         print(mes)
     
         message = [thing.find(x) for x in mes]
-        print(message)
+        #print(message)
     
         key = input("Key: ")
         #key = ("hi")
@@ -69,7 +69,7 @@ while t == 1:
         b = len(message)/len(key)
         b = int(b)
         c = b*key
-        print(c)
+        #print(c)
 
         ultracode = zip(message, c)
         ultracode = list(ultracode)
