@@ -32,7 +32,7 @@ while t == 1:
         mes = input("Message: ")
         #mes = ("test")
         mes = list(mes)
-        print(mes)
+        #print(mes)
     
         message = [thing.find(x) for x in mes]
         #print(message)
@@ -57,7 +57,7 @@ while t == 1:
         mes = input("Message: ")
         #mes = ("test")
         mes = list(mes)
-        print(mes)
+        #print(mes)
     
         message = [thing.find(x) for x in mes]
         #print(message)
