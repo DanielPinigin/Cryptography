@@ -49,7 +49,7 @@ while t == 1:
         ultracode = zip(message, c)
         ultracode = list(ultracode)
         g = [x+y for x,y in ultracode]
-        print(g)
+        #print(g)
 
         enc = [thing[x] for x in g]
         print("".join(enc))
@@ -74,7 +74,7 @@ while t == 1:
         ultracode = zip(message, c)
         ultracode = list(ultracode)
         g = [x-y for x,y in ultracode]
-        print(g)
+        #print(g)
         
         enc = [thing[x] for x in g]
         print("".join(enc))
