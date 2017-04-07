@@ -28,7 +28,7 @@ thing = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .,:;'\"/
 inp = input("Enter e to encrypt, d to decrypt, or q to quit: ")
 t = 1
 while t == 1:
-    if inp == e:
+    if inp == "e":
         mes = input("Message: ")
         #mes = ("test")
         mes = list(mes)
