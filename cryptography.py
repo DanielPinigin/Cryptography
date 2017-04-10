@@ -42,7 +42,7 @@ while t == 1:
         key = [thing.find(x) for x in key]
 
         b = len(message)/len(key)
-        b = int(b)
+        b = int(b)+1
         c = b*key
         #print(c)
 
@@ -67,7 +67,7 @@ while t == 1:
         key = [thing.find(x) for x in key]
 
         b = len(message)/len(key)
-        b = int(b)
+        b = int(b)+1
         c = b*key
         #print(c)
 
