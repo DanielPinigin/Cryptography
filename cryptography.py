@@ -1,7 +1,7 @@
 """
 cryptography.py
 Author: Daniel
-Credit: Brendan
+Credit: Brendan & Dennison
 
 Assignment:
 
